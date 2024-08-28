@@ -460,12 +460,12 @@ __exportStar(require("./compat/DyamicUI"), exports);
 },{"./base/index":7,"./compat/DyamicUI":16,"./generated/_exports":60}],62:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MangaWorldAdult = exports.MangaWorldInfo = void 0;
+exports.MangaWorldAdult = exports.MangaWorldAdultInfo = void 0;
 const types_1 = require("@paperback/types");
 const parser_1 = require("./parser");
 const helper_1 = require("./helper");
 const MW_DOMAIN = 'https://www.mangaworldadult.net';
-exports.MangaWorldInfo = {
+exports.MangaWorldAdultInfo = {
     version: '3.0.1',
     name: 'MangaWorldAdult',
     description: 'Extension that pulls manga from MangaWorldAdult (0.8).',

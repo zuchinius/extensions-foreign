@@ -460,14 +460,14 @@ __exportStar(require("./compat/DyamicUI"), exports);
 },{"./base/index":7,"./compat/DyamicUI":16,"./generated/_exports":60}],62:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MangaWorld = exports.MangaWorldInfo = void 0;
+exports.MangaWorldAdult = exports.MangaWorldInfo = void 0;
 const types_1 = require("@paperback/types");
 const parser_1 = require("./parser");
 const helper_1 = require("./helper");
 const MW_DOMAIN = 'https://www.mangaworldadult.net';
 exports.MangaWorldInfo = {
     version: '3.0.1',
-    name: 'MangaWorld',
+    name: 'MangaWorldAdult',
     description: 'Extension that pulls manga from MangaWorldAdult (0.8).',
     author: 'NmN',
     authorWebsite: 'http://github.com/pandeynmm',
@@ -483,7 +483,7 @@ exports.MangaWorldInfo = {
     ],
     intents: types_1.SourceIntents.MANGA_CHAPTERS | types_1.SourceIntents.HOMEPAGE_SECTIONS | types_1.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
 };
-class MangaWorld {
+class MangaWorldAdult {
     constructor(cheerio) {
         this.cheerio = cheerio;
         this.baseUrl = MW_DOMAIN;
@@ -621,7 +621,7 @@ class MangaWorld {
         return request;
     }
 }
-exports.MangaWorld = MangaWorld;
+exports.MangaWorldAdult = MangaWorldAdult;
 
 },{"./helper":63,"./parser":64,"@paperback/types":61}],63:[function(require,module,exports){
 "use strict";

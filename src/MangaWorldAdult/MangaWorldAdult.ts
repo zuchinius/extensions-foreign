@@ -24,7 +24,7 @@ const MW_DOMAIN = 'https://www.mangaworldadult.net'
 
 export const MangaWorldInfo: SourceInfo = {
     version: '3.0.1',
-    name: 'MangaWorld',
+    name: 'MangaWorldAdult',
     description: 'Extension that pulls manga from MangaWorldAdult (0.8).',
     author: 'NmN',
     authorWebsite: 'http://github.com/pandeynmm',
@@ -41,7 +41,7 @@ export const MangaWorldInfo: SourceInfo = {
     intents: SourceIntents.MANGA_CHAPTERS | SourceIntents.HOMEPAGE_SECTIONS | SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
 }
 
-export class MangaWorld implements SearchResultsProviding, MangaProviding, ChapterProviding, HomePageSectionsProviding { 
+export class MangaWorldAdult implements SearchResultsProviding, MangaProviding, ChapterProviding, HomePageSectionsProviding { 
     baseUrl = MW_DOMAIN
     constructor(private cheerio: CheerioAPI) {}
     RETRIES = 10

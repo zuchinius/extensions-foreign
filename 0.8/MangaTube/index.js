@@ -651,7 +651,7 @@ exports.MangaTube = MangaTube;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Parser = void 0;
 const types_1 = require("@paperback/types");
-const MW_DOMAIN = 'https://www.mangaworld.in';
+const MW_DOMAIN = 'https://www.mangaworldadult.net';
 class Parser {
     parseMangaDetails($, mangaId) {
         const title = $('.img-responsive').attr('alt') ?? '';

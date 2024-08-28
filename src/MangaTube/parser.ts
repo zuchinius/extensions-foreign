@@ -22,7 +22,7 @@ import {
     PartialSourceManga,
 } from '@paperback/types'
 
-const MW_DOMAIN = 'https://www.mangaworld.in'
+const MW_DOMAIN = 'https://www.mangaworldadult.net'
 
 export class Parser {
     parseMangaDetails($: any, mangaId: string): SourceManga {
